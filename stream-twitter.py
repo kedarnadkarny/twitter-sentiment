@@ -13,10 +13,10 @@ style.use('fivethirtyeight')
 fig = plt.figure()
 ax1 = fig.add_subplot(1,1,1)
 
-consumer_key = "1p7Zb1KhuNj277UB3B0VYUiGZ"
-consumer_secret="psOvPgxQMQCyUOZPM3E7HjDe9K5VDK8YfY78RCv1YjmrLa1tyb"
-access_token="301551092-HLh6388wku67Z8N2MwuroBsAQYs4E52ddOrqKPrO"
-access_token_secret="ptWlwAZeNAfcVDvtea8Uo1aUcStcZoE7PhbCYltGA6o7F"
+consumer_key = "YOUR_CUSTOMER_KEY"
+consumer_secret="YOUR_CONSUMER_SECRET"
+access_token="YOUR_ACCESS_TOKEN"
+access_token_secret="YOUR_ACCESS_TOKEN_SECRET"
 
 def animate(i):
 	graph_data = open('twitterDB.csv','r').read()
